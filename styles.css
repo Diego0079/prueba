@@ -1752,6 +1752,20 @@
                 opacity: 0.35;
             }
 
+            .slide-image {
+                width: 100%;
+                aspect-ratio: 4/3; /* O la proporción que prefieras */
+                overflow: hidden;
+            }
+
+            .slide-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover; /* Esto mantiene la foto centrada y recortada perfectamente */
+                object-position: center;
+                display: block;
+            }
+
             .service-card-container {
                 height: 350px;
             }
